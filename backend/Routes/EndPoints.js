@@ -2,8 +2,14 @@ const express = require('express')
 const router = express.Router()
 const User = require('../model/User')
 const Order = require('../model/Order')
-
+const app = express()
 const { body, validationResult } = require('express-validator')
+
+app.use(cors());
+app.use(express.json())
+app.use(cors({
+  origin: 'https://farm-to-home-website-frontend.onrender.com/'
+}));
 
 router.post("/createuser",
     body('email', "INVALID MAIL").isEmail(),
