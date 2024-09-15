@@ -32,7 +32,8 @@ router.post("/createuser",
                     name: req.body.name,
                     email: req.body.email,
                     password: req.body.password,
-                   date:new Date(Date.now()).toString()
+                   date:new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata' }).format(new Date());
+
 })
                 })
                 res.send({ success: true })
@@ -79,7 +80,8 @@ router.post("/createorder",
             await Order.create({
                 data: req.body.cart,
                 mail: req.body.mail,
-                date:  date:new Date(Date.now()).toString()
+                date:  new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata' }).format(new Date());
+
             })
             res.send({ success: true })
         }
