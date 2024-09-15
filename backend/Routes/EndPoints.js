@@ -9,7 +9,7 @@ const { body, validationResult } = require('express-validator')
 app.use(cors());
 app.use(express.json())
 app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/'
+  origin: 'https://farm-to-home-website-frontend.onrender.com'
 }));
 
 router.post("/createuser",
