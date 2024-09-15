@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const getdata = async () => {
       try {
-        const url = "https://farm-to-home-website-backend.onrender.com/";
+        const url = "https://farm-to-home-website-backend.onrender.com";
         const res = await fetch(url);
         const json = await res.json();
         setData(json);
