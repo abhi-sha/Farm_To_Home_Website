@@ -1,0 +1,24 @@
+.DARKregisterform{
+    background-color:rgb(53, 52, 52);
+    color: white;
+    border: 1px solid black
+}
+.LIGHTregisterform{
+    background-color:rgba(228, 227, 227, 0.866);
+    color: black;
+    border: 1px solid white
+}
+
+.DARKregister{
+    background-image:linear-gradient(90deg,rgba(2, 2, 2, 0.651),rgb(0, 0, 0));
+    color: white;
+    min-height:100vh ;
+ 
+}
+
+.LIGHTregister{
+
+    background-image: linear-gradient(90deg,rgba(133, 129, 129, 0.651),rgb(188, 165, 165));
+    color:black;
+    min-height:100vh ;
+}

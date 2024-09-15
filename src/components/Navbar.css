@@ -1,0 +1,41 @@
+.Navbarcontainer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: rgb(189, 183, 183);
+  flex-direction: row;
+}
+.Navbaritem {
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbarlink {
+  color: rgb(189, 183, 183);
+  text-decoration: none;
+}
+.navbarlink:hover {
+color: white;
+
+  text-decoration: none;
+}
+.navbarbutton {
+  border-radius: 3px;
+  min-width: 100px;
+  min-height: 30px;
+  background-color: black;
+   color: rgb(189, 183, 183);
+  box-shadow: none;
+  border: 1px solid;
+}
+
+.Navbaritem3 {
+  text-align: right;
+}
+.navbarbutton:hover {
+  cursor: pointer;
+  background-color: black; 
+  color: white;
+  transform: scale(1.05);
+
+}

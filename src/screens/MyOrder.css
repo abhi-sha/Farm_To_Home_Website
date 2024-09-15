@@ -1,0 +1,22 @@
+.DARKorder{
+    background-image:linear-gradient(90deg,rgba(2, 2, 2, 0.651),rgb(0, 0, 0));
+    color: white;
+   
+}
+.LIGHTorder{
+    background-image: linear-gradient(90deg,rgba(133, 129, 129, 0.651),rgb(188, 165, 165));
+    color:black;
+   
+}
+
+.DARKbutton
+{ background-image:linear-gradient(90deg,rgba(2, 2, 2, 0.651),rgb(0, 0, 0));
+
+   
+
+}
+
+.LIGHTbutton
+{  background-image: linear-gradient(90deg,rgba(133, 129, 129, 0.651),rgb(188, 165, 165));
+
+}

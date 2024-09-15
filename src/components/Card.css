@@ -1,0 +1,23 @@
+button:hover{
+
+    transform: scale(1.05);
+}
+.DARKheading
+{
+    color: white;
+}
+.LIGHTheading
+{
+    color: black;
+}
+.DARKcard
+{
+    background-color:rgb(29, 29, 29);
+    color: white,
+}
+
+.LIGHTcard
+{
+    background-color:rgba(228, 227, 227, 0.866);
+    color: black;
+}
