@@ -32,7 +32,7 @@ const Cart = () => {
   const handlecheckout = (e) => {
     const checkout = async (mail) => {
       try {
-        const res = await fetch("http://localhost:3001/api/createorder", {
+        const res = await fetch("https://farm-to-home-website-backend.onrender.com/api/createorder", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
