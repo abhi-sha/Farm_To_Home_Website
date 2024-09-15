@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
 
 })
 app.use(express.json())
+app.use(cors({
+  origin: 'https://farm-to-home-website-frontend.onrender.com/'
+}));
+
 app.use('/api', require('./Routes/EndPoints'))
 
 
