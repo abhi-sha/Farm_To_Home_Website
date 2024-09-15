@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 app.use(express.json())
 app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/'
+  origin: 'https://farm-to-home-website-frontend.onrender.com'
 }));
 
 
