@@ -19,18 +19,7 @@ app.use(express.json())
 app.use(cors({
   origin: 'https://farm-to-home-website-frontend.onrender.com/'
 }));
-app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/loginuser'
-}));
-app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/createuser'
-}));
-app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/createorder'
-}));
-app.use(cors({
-  origin: 'https://farm-to-home-website-frontend.onrender.com/myorders'
-}));
+
 
 
 app.use('/api', require('./Routes/EndPoints'))
