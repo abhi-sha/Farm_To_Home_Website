@@ -4,7 +4,7 @@ const User = require('../model/User')
 const Order = require('../model/Order')
 
 const { body, validationResult } = require('express-validator')
-const { Navigate } = require('react-router-dom')
+
 router.post("/createuser",
     body('email', "INVALID MAIL").isEmail(),
     body('password', "PASSWORD LENGTH LESS THAN 5").isLength({ min: 5 }), async (req, res) => {
