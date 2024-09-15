@@ -20,7 +20,7 @@ const Register = () => {
   const handleclick = async (e) => {
     e.preventDefault();
 
-    const url = "http://localhost:3001/api/createuser";
+    const url = "https://farm-to-home-website-backend.onrender.com/api/createuser";
     const res = await fetch(url, {
       method: "POST",
       headers: {
