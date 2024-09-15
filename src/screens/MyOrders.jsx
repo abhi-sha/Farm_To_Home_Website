@@ -10,7 +10,7 @@ const MyOrders = () => {
     const getorderdata = async (mail) => {
       try {
         const res = await fetch(
-          `http://localhost:3001/api/myorders?mail=${mail}`
+          `https://farm-to-home-website-backend.onrender.com/api/myorders?mail=${mail}`
         );
         const json = await res.json();
         const data = json;
