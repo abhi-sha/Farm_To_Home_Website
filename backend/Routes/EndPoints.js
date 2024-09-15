@@ -34,7 +34,7 @@ router.post("/createuser",
                     password: req.body.password,
                          date:new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata' }).format(new Date())
 
-})
+
                 })
                 res.send({ success: true })
             }
