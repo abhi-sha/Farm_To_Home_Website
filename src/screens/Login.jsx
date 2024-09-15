@@ -19,7 +19,7 @@ const Register = () => {
   const handleclick = async (e) => {
     e.preventDefault();
 
-    const url = "http://localhost:3001/api/loginuser";
+    const url = "https://farm-to-home-website-backend.onrender.com/api/loginuser";
     const res = await fetch(url, {
       method: "POST",
       headers: {
